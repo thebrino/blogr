@@ -1,0 +1,36 @@
+@media (max-width: 991px) {
+  html {
+    font-size: 50%;
+  }
+
+  .header .container {
+    max-width: 100%;
+  }
+  .header .header-menu {
+    display: none;
+  }
+
+  .header .btn-header {
+    display: none;
+  }
+
+  .btn-mobile {
+    display: block;
+  }
+
+  .hero {
+    padding: 3rem;
+  }
+
+  .hero .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .hero .content h1 {
+    font-size: 4.6rem;
+  }
+}
