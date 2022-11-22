@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   color: #fff;
 }
 
@@ -48,14 +48,18 @@ body {
   display: none;
   border-radius: 50px;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 500;
+  transition: 0.3s all;
+}
+
+.btn-mobile:hover {
+  transform: scale(1.1);
 }
 
 .home {
-  background: url(../images/bg-pattern-intro-desktop.svg),
+  background: url(/images/bg-pattern-intro-desktop.svg),
     linear-gradient(45deg, #ff8f70, #ff3d54);
   background-repeat: no-repeat;
-
   background-position: center;
   border-radius: 0 0 0 100px;
   display: flex;
@@ -92,4 +96,54 @@ body {
 .hero .content p {
   font-size: 1.8rem;
   color: var(--white-text);
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.section-1 .content h2 {
+  color: hsl(208, 49%, 24%);
+}
+
+.s1-texts h3,
+p {
+  color: hsl(208, 49%, 24%);
+}
+
+.section-1 {
+  height: 100rem;
+  display: flex;
+}
+
+.section-1 .container {
+  display: flex;
+}
+
+.section-1 .content {
+  display: flex;
+  flex-direction: column;
+  background: url(/images/illustration-editor-desktop.svg);
+  background-position: right;
+  background-size: 75rem;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.s1-cont {
+  display: flex;
+}
+
+.content .s1-title {
+  display: flex;
+  justify-content: center;
+  padding: 15rem 0 7rem 0;
+}
+
+.s1-texts h3 {
+  font-size: 3rem;
+}
+
+.s1-texts p {
+  font-size: 1.5rem;
 }

@@ -52,6 +52,25 @@ h3 {
   opacity: 1;
 }
 
+.learn-more {
+  color: var(--white-text);
+  font-size: 1.6rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
+  border-radius: 5rem;
+  padding: 1rem 2rem;
+  font-weight: 500;
+  display: inline-block;
+  opacity: 0.8;
+  transition: 0.3s all;
+}
+
+.learn-more:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
 .menu-item {
   display: flex;
   color: var(--white-text);
@@ -59,4 +78,16 @@ h3 {
   line-height: 105%;
   letter-spacing: -1px;
   font-weight: 500;
+  opacity: 0.8;
+  transition: 0.3s all;
+}
+
+.menu-item:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.btn-hero {
+  display: flex;
+  gap: 2rem;
 }
