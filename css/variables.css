@@ -1,0 +1,9 @@
+:root {
+  --primary: #ff525d;
+  --secondary: #ff7a85;
+  --blue-black: #1f3f5b;
+  --black-bg: #25252d;
+  --light-red: #ff3d54;
+  --white-text: #fff;
+  --bg-gradient: linear-gradient(45deg, #ff8f70, #ff3d54);
+}

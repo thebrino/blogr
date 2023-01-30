@@ -1,0 +1,149 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+}
+
+.header {
+  height: 9rem;
+  padding: 5rem 0;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-gradient);
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header-nav {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.header .header-menu {
+  gap: 2rem;
+  display: flex;
+}
+
+.header .header-menu a {
+  padding: 2rem;
+  color: var(--white-text);
+  font-size: 1.8rem;
+}
+
+.header .nav-btn {
+  max-width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+.btn-mobile {
+  padding: 1rem 2rem;
+  background-color: var(--white-text);
+  color: var(--primary);
+  display: none;
+  border-radius: 50px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  transition: 0.3s all;
+}
+
+.btn-mobile:hover {
+  transform: scale(1.1);
+}
+
+.home {
+  background: url(/images/bg-pattern-intro-desktop.svg),
+    linear-gradient(45deg, #ff8f70, #ff3d54);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0 0 0 100px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10rem;
+}
+
+.hero {
+  padding: 5rem 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: 100%;
+  gap: 3rem;
+}
+
+.hero .content p {
+  font-size: 1.8rem;
+  color: var(--white-text);
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.section-1 .content h2 {
+  color: hsl(208, 49%, 24%);
+}
+
+.s1-texts h3,
+p {
+  color: hsl(208, 49%, 24%);
+}
+
+.section-1 {
+  height: 100rem;
+  display: flex;
+}
+
+.section-1 .container {
+  display: flex;
+}
+
+.section-1 .content {
+  display: flex;
+  flex-direction: column;
+  background: url(/images/illustration-editor-desktop.svg);
+  background-position: right;
+  background-size: 75rem;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.s1-cont {
+  display: flex;
+}
+
+.content .s1-title {
+  display: flex;
+  justify-content: center;
+  padding: 15rem 0 7rem 0;
+}
+
+.s1-texts h3 {
+  font-size: 3rem;
+}
+
+.s1-texts p {
+  font-size: 1.5rem;
+}

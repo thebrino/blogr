@@ -1,0 +1,93 @@
+h1 {
+  font-size: 6.2rem;
+  font-weight: 700;
+  color: var(--white-text);
+}
+
+h2 {
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 125%;
+  letter-spacing: -1;
+}
+
+.btn-primary {
+  background-color: var(--white-text);
+  color: var(--primary);
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: inline-block;
+  border-radius: 5rem;
+  transition: 0.3s all;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  transform: scale(1.1);
+}
+
+.btn-login {
+  font-size: 1.6rem;
+  padding: 2rem;
+  font-weight: 500;
+  color: var(--white-text);
+  display: inline-block;
+  opacity: 0.8;
+  transition: 0.3s all;
+}
+
+.btn-login:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.learn-more {
+  color: var(--white-text);
+  font-size: 1.6rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
+  border-radius: 5rem;
+  padding: 1rem 2rem;
+  font-weight: 500;
+  display: inline-block;
+  opacity: 0.8;
+  transition: 0.3s all;
+}
+
+.learn-more:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.menu-item {
+  display: flex;
+  color: var(--white-text);
+  font-size: 1.6rem;
+  line-height: 105%;
+  letter-spacing: -1px;
+  font-weight: 500;
+  opacity: 0.8;
+  transition: 0.3s all;
+}
+
+.menu-item:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.btn-hero {
+  display: flex;
+  gap: 2rem;
+}
