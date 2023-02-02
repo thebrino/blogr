@@ -30,8 +30,50 @@ body {
 
 .header .header-menu a {
   padding: 2rem;
-  color: var(--white-text);
+  color: #fff;
   font-size: 1.8rem;
+}
+
+.header-menu img {
+  height: 0.7rem;
+}
+
+.header .arrow-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  display: none;
+  /* transition: 3s all; */
+  font-size: 1.8rem;
+  border-radius: 5px;
+  line-height: 35px;
+  margin-top: 50px;
+}
+
+.dropdown .dropdown-content p {
+  color: #272727;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: 3s all;
 }
 
 .header .nav-btn {
@@ -154,6 +196,8 @@ p {
 .s1-texts p {
   font-size: 2rem;
   margin-bottom: 7rem;
+  line-height: 35px;
+  font-weight: 200;
 }
 
 .section-2 {
@@ -220,8 +264,13 @@ p {
 
 .section-3 {
   width: 100%;
-  height: 550px;
+  height: 1100px;
   position: relative;
+  display: flex;
+  background: url(/images/illustration-laptop-desktop.svg);
+  background-size: 110rem;
+  background-repeat: no-repeat;
+  background-position: left -330px top 50px;
 }
 
 .section-3 .container {
@@ -229,18 +278,73 @@ p {
   height: 100%;
   display: flex;
   position: relative;
-  margin: 0;
+  /* margin: 0; */
 }
 
-.section-3 .content {
+.section-3 .container .content {
   display: flex;
-  margin: 0;
+  width: 55%;
+  /* margin: 0; */
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* left: 50%; */
+  transform: translate(100%, -50%);
+  /* align-items: center; */
+}
+
+.s3-texts h2 {
+  font-size: 5rem;
+  font-weight: 400;
+  color: #1f3f5b;
+  margin-bottom: 30px;
+}
+
+.s3-texts p {
+  font-size: 2rem;
+  line-height: 35px;
+  font-weight: 200;
+  margin-bottom: 7rem;
+}
+
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: #25252d;
+  border-radius: 0 100px 0 0;
+}
+
+.footer .content {
+  display: flex;
+  padding: 70px 0 70px 0;
+}
+
+.topics {
+  display: flex;
+  width: 100%;
   justify-content: space-around;
-  align-items: center;
+}
+
+.product,
+.company,
+.connect {
+  display: flex;
+  flex-direction: column;
+}
+
+.topics h4 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  font-weight: 500;
+}
+
+.topics .title {
+  color: #ffffff;
+}
+
+.topics a {
+  color: #c8c8cb;
+  line-height: 40px;
+  font-size: 2rem;
 }
 
 /* display: flex;
