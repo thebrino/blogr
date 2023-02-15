@@ -1,6 +1,6 @@
 @media (max-width: 991px) {
   html {
-    font-size: 62.5%;
+    font-size: 65%;
   }
 
   .header .container {
@@ -32,5 +32,44 @@
 
   .hero .content h1 {
     font-size: 4.6rem;
+  }
+
+  .section-1 {
+    width: 100%;
+    background: none;
+  }
+
+  .section-1 .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-2 .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-1 .container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .section-1 .container .content .bg-mobile {
+    display: block;
+    margin-bottom: 65px;
+  }
+
+  .content .s1-title {
+    margin-top: 50px;
+    margin-bottom: 65px;
+  }
+
+  .content .s1-cont {
+    width: 100%;
   }
 }
