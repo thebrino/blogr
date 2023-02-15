@@ -59,21 +59,23 @@ body {
   display: flex;
   flex-direction: column;
   display: none;
-  /* transition: 3s all; */
   font-size: 1.8rem;
   border-radius: 5px;
   line-height: 35px;
-  margin-top: 50px;
 }
 
 .dropdown .dropdown-content p {
   color: #272727;
   cursor: pointer;
+  transition: 0.3s all;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-  transition: 3s all;
+}
+
+.dropdown-content p:hover {
+  transform: scale(1.05);
 }
 
 .header .nav-btn {
@@ -139,7 +141,8 @@ body {
   color: var(--white-text);
 }
 
-.logo {
+.logo,
+.logo-footer {
   cursor: pointer;
 }
 
@@ -225,7 +228,6 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* justify-content: space-around; */
   align-items: center;
   justify-content: center;
 }
@@ -282,18 +284,14 @@ p {
   height: 100%;
   display: flex;
   position: relative;
-  /* margin: 0; */
 }
 
 .section-3 .container .content {
   display: flex;
   width: 55%;
-  /* margin: 0; */
   position: absolute;
   top: 50%;
-  /* left: 50%; */
   transform: translate(100%, -50%);
-  /* align-items: center; */
 }
 
 .s3-texts h2 {
@@ -351,9 +349,6 @@ p {
   font-size: 2rem;
 }
 
-/* display: flex;
-background: url(/images/illustration-phones.svg);
-background-repeat: no-repeat;
-height: 500px;
-background-position: left 40px top -50px;
-background-size: 50rem; */
+.topics a:hover {
+  color: #fff;
+}
